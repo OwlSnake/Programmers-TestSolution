@@ -11,6 +11,7 @@ int max(int a, int b) {
 
 int main() 
 {
+	// 입력
 	ios::sync_with_stdio(0); cin.tie(0);
 	cin >> N >> max_W;
 	for (int i = 1; i <= N; i++)
@@ -27,6 +28,7 @@ int main()
 		}
 	}
 
+	// 출력
 	cout << DP[N][max_W];
 	return 0;
 }
